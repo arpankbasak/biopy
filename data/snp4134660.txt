@@ -1,0 +1,2629 @@
+Rs ::= {
+  attlist {
+    rsId 1800562,
+    snpClass snp,
+    snpType notwithdrawn,
+    molType genomic,
+    genotype TRUE,
+    bitField "050368080A05150513370100",
+    taxId 9606
+  },
+  het {
+    attlist {
+      type est,
+      value { 2, 10, -2 },
+      stdError { 1086, 10, -4 }
+    },
+    het NULL
+  },
+  validation {
+    attlist {
+      byCluster TRUE,
+      byFrequency TRUE,
+      byHapMap TRUE,
+      by1000G TRUE
+    }
+  },
+  create {
+    attlist {
+      build 89,
+      date "2000-11-14 13:27"
+    },
+    create NULL
+  },
+  update {
+    attlist {
+      build 146,
+      date "2015-10-07 17:39"
+    },
+    update NULL
+  },
+  sequence {
+    attlist {
+      exemplarSs 95209990,
+      ancestralAllele "G,G,G,G"
+    },
+    seq5 "TCCTCATCCTTCCTCTTTCCTGTCAAGTGCCTCCTTTGGTGAAGGTGACACATCATGTGACCTCTTCA
+GTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACCATGAAGTGGCTGAAGGATAAGCAGCCA
+ATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGGACCTACCAGGGCTGGATAACCTTGGCT
+GTACCCCCTGGGGAAGAGCAGAGATATACGT",
+    observed "A/G",
+    seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGAGCCA
+GGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGCTCTT
+TGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTGGCAC
+CCTAGTCATTGGAGTCATCAGTGGAATTGCT"
+  },
+  ss {
+    {
+      attlist {
+        ssId 2420669,
+        handle "HGBASE",
+        batchId 3307,
+        locSnpId "SNP000003443",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 89,
+        methodClass unknown,
+        linkoutUrl "http://www.ebi.ac.uk/cgi-bin/mutations/hgvbasefetch?SNP000
+003443"
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 5586582,
+        handle "SNP500CANCER",
+        batchId 8272,
+        locSnpId "HFE-02",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 113,
+        methodClass unknown,
+        validated by-cluster,
+        linkoutUrl "http://snp500cancer.nci.nih.gov/snp.cfm?both_snp_id=HFE-02"
+      },
+      sequence {
+        seq5 "ATGTGAYCTCTTCAGTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCAC
+CATGAAGTGGCTGAAGGATAAGCAGCCAATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGG
+GACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTRAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTG
+GCACCCTAGTCATTGGAGTCATCAGTGG"
+      }
+    },
+    {
+      attlist {
+        ssId 24365242,
+        handle "PERLEGEN",
+        batchId 12311,
+        locSnpId "afd4061885",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 123,
+        methodClass hybridize,
+        validated by-cluster
+      },
+      sequence {
+        seq5 "AAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGGACCTACCAGGGCTGGATAACCT
+TGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGG"
+      }
+    },
+    {
+      attlist {
+        ssId 65843448,
+        handle "KRIBB_YJKIM",
+        batchId 33716,
+        locSnpId "KHS19242",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 127,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "ATGTGAYCTCTTCAGTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCAC
+CATGAAGTGGCTGAAGGATAAGCAGCCAATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGG
+GACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTRAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTG
+GCACCCTAGTCATTGGAGTCATCAGTGG"
+      }
+    },
+    {
+      attlist {
+        ssId 66077890,
+        handle "AFFY",
+        batchId 33766,
+        locSnpId "SNP_A-1905121",
+        subSnpClass snp,
+        orient reverse,
+        strand bottom,
+        molType genomic,
+        buildId 127,
+        methodClass hybridize,
+        validated by-cluster,
+        linkoutUrl "http://www.affymetrix.com/support/technical/byproduct.affx
+?product=100kSNP_A-1905121"
+      },
+      sequence {
+        seq5 "TGGGTGCTCCACCTGG",
+        observed "C/T",
+        seq3 "ACGTATATCTCTGCTC"
+      }
+    },
+    {
+      attlist {
+        ssId 66577872,
+        handle "ILLUMINA",
+        batchId 33879,
+        locSnpId "HumanHap300v1.1_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 127,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTA"
+      }
+    },
+    {
+      attlist {
+        ssId 67197007,
+        handle "ILLUMINA",
+        batchId 38431,
+        locSnpId "HumanHap550v1.1_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 127,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTA"
+      }
+    },
+    {
+      attlist {
+        ssId 67585966,
+        handle "ILLUMINA",
+        batchId 38432,
+        locSnpId "HumanHap650Yv1.0_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 127,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTA"
+      }
+    },
+    {
+      attlist {
+        ssId 68969475,
+        handle "PERLEGEN",
+        batchId 38687,
+        locSnpId "PGP04061885",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 127,
+        methodClass hybridize,
+        validated by-cluster
+      },
+      sequence {
+        seq5 "GATGGGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA"
+      }
+    },
+    {
+      attlist {
+        ssId 70675219,
+        handle "ILLUMINA",
+        batchId 51468,
+        locSnpId "HumanHap550v3.0__rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 130,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 71238231,
+        handle "ILLUMINA",
+        batchId 51469,
+        locSnpId "HumanHap650Yv3.0_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 127,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 74935970,
+        handle "ILLUMINA",
+        batchId 52075,
+        locSnpId "ILMN_Human_1M_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 129,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 76015380,
+        handle "AFFY",
+        batchId 52074,
+        locSnpId "AFFY_6_1M_SNP_A-1905121",
+        subSnpClass snp,
+        orient reverse,
+        strand bottom,
+        molType genomic,
+        buildId 129,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "TGGGTGCTCCACCTGG",
+        observed "C/T",
+        seq3 "ACGTATATCTCTGCTC"
+      }
+    },
+    {
+      attlist {
+        ssId 79094227,
+        handle "ILLUMINA",
+        batchId 50872,
+        locSnpId "HumanHap300v2.0_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 130,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 83877451,
+        handle "KRIBB_YJKIM",
+        batchId 52439,
+        locSnpId "KHS563046",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 130,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "ATGTGAYCTCTTCAGTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCAC
+CATGAAGTGGCTGAAGGATAAGCAGCCAATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGG
+GACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTRAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTG
+GCACCCTAGTCATTGGAGTCATCAGTGG"
+      }
+    },
+    {
+      attlist {
+        ssId 95209990,
+        handle "EGP_SNPS",
+        batchId 59709,
+        locSnpId "HFE-007633",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 129,
+        methodClass sequence,
+        validated by-cluster
+      },
+      sequence {
+        seq5 "TCCTCATCCTTCCTCTTTCCTGTCAAGTGCCTCCTTTGGTGAAGGTGACACATCATGTGACCTC
+TTCAGTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACCATGAAGTGGCTGAAGGATAAGCA
+GCCAATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGGACCTACCAGGGCTGGATAACCTT
+GGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTG
+GCACCCTAGTCATTGGAGTCATCAGTGGAATTGCT"
+      }
+    },
+    {
+      attlist {
+        ssId 121814162,
+        handle "ILLUMINA",
+        batchId 1047132,
+        locSnpId "HumanCNV370v1_C_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 131,
+        methodClass other,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 153736398,
+        handle "ILLUMINA",
+        batchId 1048904,
+        locSnpId "Human610_Quadv1_B_rs1800562-128_T_F_1501686021",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 131,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 159329747,
+        handle "ILLUMINA",
+        batchId 1048965,
+        locSnpId "Human660W-Quad_v1_A_rs1800562-128_T_F_1501686021",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 131,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 159711412,
+        handle "SEATTLESEQ",
+        batchId 1048973,
+        locSnpId "HFE-26201120",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 131,
+        methodClass unknown
+      },
+      sequence {
+        seq5 "GGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTA"
+      }
+    },
+    {
+      attlist {
+        ssId 170436801,
+        handle "AFFY",
+        batchId 1049350,
+        locSnpId "GenomeWideSNP_5_SNP_A-1905121",
+        subSnpClass snp,
+        orient reverse,
+        strand bottom,
+        molType genomic,
+        buildId 132,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "TGGGTGCTCCACCTGG",
+        observed "C/T",
+        seq3 "ACGTATATCTCTGCTC"
+      }
+    },
+    {
+      attlist {
+        ssId 170815449,
+        handle "ILLUMINA",
+        batchId 1049349,
+        locSnpId "HumanCNV370-Quadv3_C_rs1800562-128_T_F_1501686021",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 132,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 172924829,
+        handle "ILLUMINA",
+        batchId 1049348,
+        locSnpId "Human1M-Duov3_B_rs1800562-128_T_F_1501686021",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 132,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 209087069,
+        handle "ILLUMINA",
+        batchId 1050330,
+        locSnpId "ALS_iSelect_272541_A_rs1800562-127_T_F_IFB1223202273",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 132,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 233370759,
+        handle "1000GENOMES",
+        batchId 1056111,
+        locSnpId "pilot_1_CEU_2975388_chr6_26201120",
+        subSnpClass snp,
+        orient forward,
+        molType genomic,
+        buildId 132,
+        methodClass sequence
+      },
+      sequence {
+        seq5 "TGTGACCTCTTCAGTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACC
+ATGAAGTGGCTGAAGGATAAGCAGCCAATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGG
+ACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGT"
+      }
+    },
+    {
+      attlist {
+        ssId 244285028,
+        handle "ILLUMINA",
+        batchId 1050734,
+        locSnpId "CVDSNP55v1_A_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 132,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 244317425,
+        handle "OMICIA",
+        batchId 1050746,
+        locSnpId "2010_April_001_072_HFE_235200_0001",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 132,
+        methodClass sequence,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "ATCCTTCCTCTTTCCTGTCAAGTGCCTCCTTTGGTGAAGGTGACACATCATGTGACCTCTTCAG
+TGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACCATGAAGTGGCTGAAGGATAAGCAGCCAA
+TGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGGACCTACCAGGGCTGGATAACCTTGGCTG
+TACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTG
+GCACCCTAGTCATTGGAGTCATCAGTGGAA"
+      }
+    },
+    {
+      attlist {
+        ssId 288288919,
+        handle "OMIM-CURATED-RECORDS",
+        batchId 1052764,
+        locSnpId "6333",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 133,
+        methodClass sequence,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "ATCCTTCCTCTTTCCTGTCAAGTGCCTCCTTTGGTGAAGGTGACACATCATGTGACCTCTTCAG
+TGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACCATGAAGTGGCTGAAGGATAAGCAGCCAA
+TGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGGACCTACCAGGGCTGGATAACCTTGGCTG
+TACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTG
+GCACCCTAGTCATTGGAGTCATCAGTGGAA"
+      }
+    },
+    {
+      attlist {
+        ssId 342203133,
+        handle "NHLBI-ESP",
+        batchId 1055207,
+        locSnpId "ESP2500-chr6-26093141",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 134,
+        methodClass sequence,
+        validated by-cluster
+      },
+      sequence {
+        seq5 "ATCCTTCCTCTTTCCTGTCAAGTGCCTCCTTTGGTGAAGGTGACACATCATGTGACCTCTTCAG
+TGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACCATGAAGTGGCTGAAGGATAAGCAGCCAA
+TGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGGACCTACCAGGGCTGGATAACCTTGGCTG
+TACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGTTTTAGAGCCCTCACCGTCTG
+GCACCCTAGTCATTGGAGTCATCAGTGGAA"
+      }
+    },
+    {
+      attlist {
+        ssId 410868036,
+        handle "ILLUMINA",
+        batchId 1055361,
+        locSnpId "Cardio-Metabo_Chip_11395247_A_chr6_26201120",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 135,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 410916049,
+        handle "ILLUMINA",
+        batchId 1055361,
+        locSnpId "Cardio-Metabo_Chip_11395247_A_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 135,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 469996319,
+        handle "PAGE_STUDY",
+        batchId 1056280,
+        locSnpId "PAGE_CALiCo_Y2_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 137,
+        methodClass unknown
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 483420740,
+        handle "ILLUMINA",
+        batchId 1056551,
+        locSnpId "HumanOmni2.5-4v1_D_kgp4787068-0_T_F_1805808302",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 137,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 485221593,
+        handle "ILLUMINA",
+        batchId 1056550,
+        locSnpId "HumanOmni2.5-4v1_B_SNP6-26201120-0_T_F_1613642169",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 137,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "GGACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CNNNNNGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 490921029,
+        handle "1000GENOMES",
+        batchId 1056595,
+        locSnpId "20110521_exome_428827_chr6_26093141",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 137,
+        methodClass sequence,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "TGTGACCTCTTCAGTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACC
+ATGAAGTGGCTGAAGGATAAGCAGCCAATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGG
+ACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGT"
+      }
+    },
+    {
+      attlist {
+        ssId 491378673,
+        handle "EXOME_CHIP",
+        batchId 1056696,
+        locSnpId "nonsyn_94899_chr_6_26093141",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 137,
+        methodClass sequence,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "TGTGACCTCTTCAGTGACCACTCTACGGTGTCGGGCCTTGAACTACTACCCCCAGAACATCACC
+ATGAAGTGGCTGAAGGATAAGCAGCCAATGGATGCCAAGGAGTTCGAACCTAAAGACGTATTGCCCAATGGGGATGGG
+ACCTACCAGGGCTGGATAACCTTGGCTGTACCCCCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGATCAGCCCCTCATTGTGATCTGGGGTATGTGACTGATGAGA
+GCCAGGAGCTGAGAAAATCTATTGGGGGTTGAGAGGAGTGCCTGAGGAGGTAATTATGGCAGTGAGATGAGGATCTGC
+TCTTTGTTAGGGGGTGGGCTGAGGGTGGCAATCAAAGGCTTTAACTTGCTTTTTCTGT"
+      }
+    },
+    {
+      attlist {
+        ssId 491881988,
+        handle "CLINSEQ_SNP",
+        batchId 1056699,
+        locSnpId "SNV-chr6-26201120",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 137,
+        methodClass sequence,
+        validated by-cluster
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 535631718,
+        handle "ILLUMINA",
+        batchId 1057169,
+        locSnpId "HumanOmni5-4v1_B__kgp4787068-0_T_F_1805808302",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 778678728,
+        handle "ILLUMINA",
+        batchId 1059258,
+        locSnpId "HumanOmni25Exome-8v1_A_kgp4787068-0_T_F_1805808302",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 780846250,
+        handle "ILLUMINA",
+        batchId 1059258,
+        locSnpId "HumanOmni25Exome-8v1_A_exm521729-0_T_F_1921904613",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 782153615,
+        handle "ILLUMINA",
+        batchId 1059259,
+        locSnpId "HumanOmni2.5-4v1_H_kgp4787068-0_T_F_1805808302",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 783529810,
+        handle "ILLUMINA",
+        batchId 1059260,
+        locSnpId "HumanOmniExpressExome-8v1_A_exm521729-0_T_F_1921904613",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 825424745,
+        handle "ILLUMINA",
+        batchId 1059355,
+        locSnpId "HumanCNV370v1_C_rs1800562-123_T_F_IFB1151450742:0",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 144,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 834137257,
+        handle "ILLUMINA",
+        batchId 1059487,
+        locSnpId "HumanOmni2.5-8v1_A_kgp4787068-0_T_F_1805808302",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 982706046,
+        handle "EVA-GONL",
+        batchId 1059769,
+        locSnpId "EVA-GONL_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 142,
+        methodClass sequence,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1319404538,
+        handle "1000GENOMES",
+        batchId 1061891,
+        locSnpId "PHASE3_V1_31329085",
+        subSnpClass snp,
+        orient forward,
+        molType genomic,
+        buildId 142,
+        methodClass sequence
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1397445372,
+        handle "HAMMER_LAB",
+        batchId 1061909,
+        locSnpId "HAMMER_LAB_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass unknown
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1581580354,
+        handle "EVA_GENOME_DK",
+        batchId 1062093,
+        locSnpId "EVA_GENOME_DK_snv_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 144,
+        methodClass unknown
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1584044193,
+        handle "EVA_FINRISK",
+        batchId 1062103,
+        locSnpId "EVA_FINRISK_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 144,
+        methodClass sequence,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1592256986,
+        handle "EVA_DECODE",
+        batchId 1062110,
+        locSnpId "EVA_DECODE_6_26201120_221021_rs1800562",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 144,
+        methodClass sequence,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1615189586,
+        handle "EVA_UK10K_ALSPAC",
+        batchId 1062112,
+        locSnpId "EVA_UK10K_ALSPAC_6_26093141_17368924",
+        subSnpClass snp,
+        orient forward,
+        molType genomic,
+        buildId 144,
+        methodClass sequence
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1658183619,
+        handle "EVA_UK10K_TWINSUK",
+        batchId 1062113,
+        locSnpId "EVA_UK10K_TWINSUK_6_26093141_17368924",
+        subSnpClass snp,
+        orient forward,
+        molType genomic,
+        buildId 144,
+        methodClass sequence
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1688187541,
+        handle "EVA_EXAC",
+        batchId 1062114,
+        locSnpId "EVA_EXAC_3205069",
+        subSnpClass snp,
+        orient forward,
+        molType genomic,
+        buildId 144,
+        methodClass unknown
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1711114875,
+        handle "EVA_MGP",
+        batchId 1062118,
+        locSnpId "EVA_XIMO_230635",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 144,
+        methodClass unknown
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    },
+    {
+      attlist {
+        ssId 1752621306,
+        handle "ILLUMINA",
+        batchId 1062181,
+        locSnpId "OmniExpressExome-8v1-1_B_exm521729-0_T_F_1921904613",
+        subSnpClass snp,
+        orient forward,
+        strand top,
+        molType genomic,
+        buildId 146,
+        methodClass hybridize,
+        validated by-submitter
+      },
+      sequence {
+        seq5 "CCTGGGGAAGAGCAGAGATATACGT",
+        observed "A/G",
+        seq3 "CCAGGTGGAGCACCCAGGCCTGGAT"
+      }
+    }
+  },
+  assembly {
+    {
+      attlist {
+        dbSnpBuild 146,
+        genomeBuild "38.2",
+        groupLabel "GRCh38.p2",
+        current TRUE,
+        reference TRUE
+      },
+      component {
+        {
+          attlist {
+            componentType contig,
+            accession "NT_007592.16",
+            chromosome "6",
+            start 60000,
+            end 58453887,
+            orientation fwd,
+            gi "568815314",
+            groupTerm "NC_000006.12",
+            contigLabel "GCF_000001405.28"
+          },
+          mapLoc {
+            {
+              attlist {
+                asnFrom 26032912,
+                asnTo 26032912,
+                locType exact,
+                alnQuality { 1, 10, 0 },
+                orient forward,
+                physMapInt 26092912,
+                leftContigNeighborPos 26032911,
+                rightContigNeighborPos 26032913,
+                refAllele "G"
+              },
+              fxnSet {
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_000410",
+                    mrnaVer 3,
+                    protAcc "NP_000401",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 281,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_000410",
+                    mrnaVer 3,
+                    protAcc "NP_000401",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 281
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_001300749",
+                    mrnaVer 1,
+                    protAcc "NP_001287678",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 281,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_001300749",
+                    mrnaVer 1,
+                    protAcc "NP_001287678",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 281
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139003",
+                    mrnaVer 2,
+                    protAcc "NP_620572",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 175,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139003",
+                    mrnaVer 2,
+                    protAcc "NP_620572",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 175
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139004",
+                    mrnaVer 2,
+                    protAcc "NP_620573",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 189,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139004",
+                    mrnaVer 2,
+                    protAcc "NP_620573",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 189
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139006",
+                    mrnaVer 2,
+                    protAcc "NP_620575",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 267,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139006",
+                    mrnaVer 2,
+                    protAcc "NP_620575",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 267
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139007",
+                    mrnaVer 2,
+                    protAcc "NP_620576",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 193,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139007",
+                    mrnaVer 2,
+                    protAcc "NP_620576",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 193
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139008",
+                    mrnaVer 2,
+                    protAcc "NP_620577",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 179,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139008",
+                    mrnaVer 2,
+                    protAcc "NP_620577",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 179
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139009",
+                    mrnaVer 2,
+                    protAcc "NP_620578",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 258,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139009",
+                    mrnaVer 2,
+                    protAcc "NP_620578",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 258
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139010",
+                    mrnaVer 2,
+                    protAcc "NP_620579",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 101,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139010",
+                    mrnaVer 2,
+                    protAcc "NP_620579",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 101
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "NM_139011",
+                    mrnaVer 2,
+                    fxnClass intron-variant,
+                    soTerm "intron_variant"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "XM_011514543",
+                    mrnaVer 1,
+                    protAcc "XP_011512845",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 281,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "XM_011514543",
+                    mrnaVer 1,
+                    protAcc "XP_011512845",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 281
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "XM_011514544",
+                    mrnaVer 1,
+                    protAcc "XP_011512846",
+                    protVer 1,
+                    fxnClass missense,
+                    readingFrame 2,
+                    allele "A",
+                    residue "Y",
+                    aaPosition 278,
+                    soTerm "non_synonymous_codon"
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "XM_011514544",
+                    mrnaVer 1,
+                    protAcc "XP_011512846",
+                    protVer 1,
+                    fxnClass reference,
+                    readingFrame 2,
+                    allele "G",
+                    residue "C",
+                    aaPosition 278
+                  },
+                  fxnSet NULL
+                },
+                {
+                  attlist {
+                    geneId 3077,
+                    symbol "HFE",
+                    mrnaAcc "XR_241893",
+                    mrnaVer 2,
+                    fxnClass nc-transcript-variant,
+                    allele "-",
+                    soTerm "nc_transcript_variant"
+                  },
+                  fxnSet NULL
+                }
+              }
+            }
+          }
+        }
+      },
+      snpStat {
+        attlist {
+          mapWeight unique-in-contig,
+          chromCount 1,
+          placedContigCount 1,
+          unplacedContigCount 0,
+          seqlocCount 1,
+          hapCount 0
+        },
+        snpStat NULL
+      }
+    }
+  },
+  primarySequence {
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718876,
+        source hgvs,
+        accession "NM_000410.3"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 1004,
+            asnTo 1004,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 1003,
+            rightContigNeighborPos 1005,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718877,
+        source hgvs,
+        accession "NM_139003.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 686,
+            asnTo 686,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 685,
+            rightContigNeighborPos 687,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718878,
+        source hgvs,
+        accession "NM_139004.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 728,
+            asnTo 728,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 727,
+            rightContigNeighborPos 729,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718880,
+        source hgvs,
+        accession "NM_139006.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 962,
+            asnTo 962,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 961,
+            rightContigNeighborPos 963,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718881,
+        source hgvs,
+        accession "NM_139007.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 740,
+            asnTo 740,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 739,
+            rightContigNeighborPos 741,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718882,
+        source hgvs,
+        accession "NM_139008.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 698,
+            asnTo 698,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 697,
+            rightContigNeighborPos 699,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718883,
+        source hgvs,
+        accession "NM_139009.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 935,
+            asnTo 935,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 934,
+            rightContigNeighborPos 936,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 91718884,
+        source hgvs,
+        accession "NM_139010.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 464,
+            asnTo 464,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 463,
+            rightContigNeighborPos 465,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 526253097,
+        source hgvs,
+        accession "NG_008720.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 10632,
+            asnTo 10632,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 10631,
+            rightContigNeighborPos 10633,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 663429516,
+        source hgvs,
+        accession "NM_001300749.1"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 1004,
+            asnTo 1004,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 1003,
+            rightContigNeighborPos 1005,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 767939869,
+        source hgvs,
+        accession "XM_011514543.1"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 966,
+            asnTo 966,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 965,
+            rightContigNeighborPos 967,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 767939871,
+        source hgvs,
+        accession "XR_241893.2"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 966,
+            asnTo 966,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 965,
+            rightContigNeighborPos 967,
+            refAllele "G"
+          }
+        }
+      }
+    },
+    {
+      attlist {
+        dbSnpBuild 146,
+        gi 767939872,
+        source hgvs,
+        accession "XM_011514544.1"
+      },
+      mapLoc {
+        {
+          attlist {
+            asnFrom 957,
+            asnTo 957,
+            locType exact,
+            alnQuality { 1, 10, 0 },
+            orient forward,
+            leftContigNeighborPos 956,
+            rightContigNeighborPos 958,
+            refAllele "G"
+          }
+        }
+      }
+    }
+  },
+  rsStruct {
+    {
+      attlist {
+        protAcc "NP_620579",
+        protGi 21040355,
+        protLoc 102,
+        protResidue "C  ",
+        rsResidue "Y                                                          
+                                         ",
+        structGi 4699710,
+        structLoc 260,
+        structResidue "C  "
+      },
+      rsStruct NULL
+    },
+    {
+      attlist {
+        protAcc "NP_620572",
+        protGi 21040341,
+        protLoc 176,
+        protResidue "C  ",
+        rsResidue "Y                                                          
+                                         ",
+        structGi 4699710,
+        structLoc 260,
+        structResidue "C  "
+      },
+      rsStruct NULL
+    },
+    {
+      attlist {
+        protAcc "NP_620573",
+        protGi 21040343,
+        protLoc 190,
+        protResidue "C  ",
+        rsResidue "Y                                                          
+                                         ",
+        structGi 4699710,
+        structLoc 260,
+        structResidue "C  "
+      },
+      rsStruct NULL
+    },
+    {
+      attlist {
+        protAcc "NP_620578",
+        protGi 21040353,
+        protLoc 259,
+        protResidue "C  ",
+        rsResidue "Y                                                          
+                                         ",
+        structGi 4699710,
+        structLoc 260,
+        structResidue "C  "
+      },
+      rsStruct NULL
+    },
+    {
+      attlist {
+        protAcc "NP_620575",
+        protGi 21040347,
+        protLoc 268,
+        protResidue "C  ",
+        rsResidue "Y                                                          
+                                         ",
+        structGi 4699710,
+        structLoc 260,
+        structResidue "C  "
+      },
+      rsStruct NULL
+    },
+    {
+      attlist {
+        protAcc "NP_620577",
+        protGi 21040351,
+        protLoc 180,
+        protResidue "C  ",
+        rsResidue "Y                                                          
+                                         ",
+        structGi 4699710,
+        structLoc 260,
+        structResidue "C  "
+      },
+      rsStruct NULL
+    },
+    {
+      attlist {
+        protAcc "NP_000401",
+        protGi 4504377,
+        protLoc 282,
+        protResidue "C  ",
+        rsResidue "Y                                                          
+                                         ",
+        structGi 4699710,
+        structLoc 260,
+        structResidue "C  "
+      },
+      rsStruct NULL
+    }
+  },
+  rsLinkout {
+    {
+      attlist {
+        resourceId "1",
+        linkValue "1800562"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "4",
+        linkValue "271810"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "4",
+        linkValue "271747"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "18603647"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "18795173"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19084217"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19165391"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19401444"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19474294"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19673882"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19820697"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19820698"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19820699"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19862010"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19879291"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19880490"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "19884647"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "20029940"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "20110814"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "20556870"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "20659343"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "20846924"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "20858683"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "20927387"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21067572"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21138591"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21149283"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21153663"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21208937"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21240526"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21400687"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21483845"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21665994"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21679129"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21785125"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21860704"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21862702"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21975967"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "21978626"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22047634"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22074419"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22234866"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22408404"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22540250"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22611049"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22735619"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "22815867"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23386860"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23389292"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23446634"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23468552"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23792061"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23794717"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23820649"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23935582"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "23996192"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "24121126"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "24270849"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "24398642"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "24922540"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "24926413"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "24931982"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "25071582"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "25287020"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "25302496"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "25933217"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "26025379"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "26054392"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "26159428"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "26416403"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "26420954"
+      },
+      rsLinkout NULL
+    },
+    {
+      attlist {
+        resourceId "5",
+        linkValue "26460247"
+      },
+      rsLinkout NULL
+    }
+  },
+  mergeHistory {
+    {
+      attlist {
+        rsId 111535158,
+        buildId 133
+      },
+      mergeHistory NULL
+    },
+    {
+      attlist {
+        rsId 58044250,
+        buildId 130
+      },
+      mergeHistory NULL
+    },
+    {
+      attlist {
+        rsId 17530654,
+        buildId 123
+      },
+      mergeHistory NULL
+    },
+    {
+      attlist {
+        rsId 4134660,
+        buildId 109
+      },
+      mergeHistory NULL
+    }
+  },
+  hgvs {
+    "NC_000006.12:g.26092913G>A",
+    "NC_000006.11:g.26093141G>A",
+    "NM_000410.3:c.845G>A",
+    "NG_008720.2:g.10633G>A",
+    "NM_001300749.1:c.845G>A",
+    "NM_139007.2:c.581G>A",
+    "NM_139008.2:c.539G>A",
+    "NM_139009.2:c.776G>A",
+    "NM_139010.2:c.305G>A",
+    "NM_139011.2:c.77-206G>A",
+    "NM_139004.2:c.569G>A",
+    "NM_139003.2:c.527G>A",
+    "NM_139006.2:c.803G>A",
+    "NP_001287678.1:p.Cys282Tyr",
+    "NP_620578.1:p.Cys259Tyr",
+    "NP_620577.1:p.Cys180Tyr",
+    "NP_620576.1:p.Cys194Tyr",
+    "NP_620573.1:p.Cys190Tyr",
+    "NP_620575.1:p.Cys268Tyr",
+    "NP_620572.1:p.Cys176Tyr",
+    "NP_620579.1:p.Cys102Tyr",
+    "NP_000401.1:p.Cys282Tyr",
+    "XM_005249040.1:c.836G>A",
+    "XM_011514543.1:c.845G>A",
+    "XM_011514544.1:c.836G>A",
+    "XP_005249097.1:p.Cys279Tyr",
+    "XP_011512845.1:p.Cys282Tyr",
+    "XP_011512846.1:p.Cys279Tyr",
+    "XR_241893.2:n.967G>A",
+    "XR_241893.1:n.967G>A",
+    "XR_241894.1:n.892G>A"
+  },
+  alleleOrigin {
+    {
+      attlist {
+        allele "G"
+      },
+      alleleOrigin 1
+    },
+    {
+      attlist {
+        allele "A"
+      },
+      alleleOrigin 1
+    }
+  },
+  phenotype {
+    {
+      clinicalSignificance {
+        "Pathogenic"
+      }
+    }
+  },
+  frequency {
+    {
+      attlist {
+        freq { 126, 10, -4 },
+        allele "A",
+        sampleSize 5008
+      },
+      frequency NULL
+    }
+  }
+}
+
