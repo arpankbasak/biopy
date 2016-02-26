@@ -1,0 +1,12 @@
+c = 'TGT'
+l = 'ATT'
+y = 'TAT'
+s = 'TCT'
+start = 'ATG'
+stop = 'TAA'
+clysy = [c,l,y,s,y]
+print " ".join(clysy)
+print clysy[-1]
+clysy[0] = start
+clysy.append(stop)
+print " ".join(clysy)

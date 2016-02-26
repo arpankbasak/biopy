@@ -1,0 +1,705 @@
+LOCUS       NC_000006               8837 bp    DNA     linear   CON 12-MAR-2015
+DEFINITION  Homo sapiens chromosome 6, GRCh38.p2 Primary Assembly.
+ACCESSION   NC_000006 REGION: 26087281..26096117 GPC_000001298
+VERSION     NC_000006.12  GI:568815592
+DBLINK      BioProject: PRJNA168
+            Assembly: GCF_000001405.28
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 8837)
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Finishing the euchromatic sequence of the human genome
+  JOURNAL   Nature 431 (7011), 931-945 (2004)
+   PUBMED   15496913
+REFERENCE   2  (bases 1 to 8837)
+  AUTHORS   Mungall,A.J., Palmer,S.A., Sims,S.K., Edwards,C.A., Ashurst,J.L.,
+            Wilming,L., Jones,M.C., Horton,R., Hunt,S.E., Scott,C.E.,
+            Gilbert,J.G., Clamp,M.E., Bethel,G., Milne,S., Ainscough,R.,
+            Almeida,J.P., Ambrose,K.D., Andrews,T.D., Ashwell,R.I.,
+            Babbage,A.K., Bagguley,C.L., Bailey,J., Banerjee,R., Barker,D.J.,
+            Barlow,K.F., Bates,K., Beare,D.M., Beasley,H., Beasley,O.,
+            Bird,C.P., Blakey,S., Bray-Allen,S., Brook,J., Brown,A.J.,
+            Brown,J.Y., Burford,D.C., Burrill,W., Burton,J., Carder,C.,
+            Carter,N.P., Chapman,J.C., Clark,S.Y., Clark,G., Clee,C.M.,
+            Clegg,S., Cobley,V., Collier,R.E., Collins,J.E., Colman,L.K.,
+            Corby,N.R., Coville,G.J., Culley,K.M., Dhami,P., Davies,J.,
+            Dunn,M., Earthrowl,M.E., Ellington,A.E., Evans,K.A., Faulkner,L.,
+            Francis,M.D., Frankish,A., Frankland,J., French,L., Garner,P.,
+            Garnett,J., Ghori,M.J., Gilby,L.M., Gillson,C.J., Glithero,R.J.,
+            Grafham,D.V., Grant,M., Gribble,S., Griffiths,C., Griffiths,M.,
+            Hall,R., Halls,K.S., Hammond,S., Harley,J.L., Hart,E.A.,
+            Heath,P.D., Heathcott,R., Holmes,S.J., Howden,P.J., Howe,K.L.,
+            Howell,G.R., Huckle,E., Humphray,S.J., Humphries,M.D., Hunt,A.R.,
+            Johnson,C.M., Joy,A.A., Kay,M., Keenan,S.J., Kimberley,A.M.,
+            King,A., Laird,G.K., Langford,C., Lawlor,S., Leongamornlert,D.A.,
+            Leversha,M., Lloyd,C.R., Lloyd,D.M., Loveland,J.E., Lovell,J.,
+            Martin,S., Mashreghi-Mohammadi,M., Maslen,G.L., Matthews,L.,
+            McCann,O.T., McLaren,S.J., McLay,K., McMurray,A., Moore,M.J.,
+            Mullikin,J.C., Niblett,D., Nickerson,T., Novik,K.L., Oliver,K.,
+            Overton-Larty,E.K., Parker,A., Patel,R., Pearce,A.V., Peck,A.I.,
+            Phillimore,B., Phillips,S., Plumb,R.W., Porter,K.M., Ramsey,Y.,
+            Ranby,S.A., Rice,C.M., Ross,M.T., Searle,S.M., Sehra,H.K.,
+            Sheridan,E., Skuce,C.D., Smith,S., Smith,M., Spraggon,L.,
+            Squares,S.L., Steward,C.A., Sycamore,N., Tamlyn-Hall,G., Tester,J.,
+            Theaker,A.J., Thomas,D.W., Thorpe,A., Tracey,A., Tromans,A.,
+            Tubby,B., Wall,M., Wallis,J.M., West,A.P., White,S.S.,
+            Whitehead,S.L., Whittaker,H., Wild,A., Willey,D.J., Wilmer,T.E.,
+            Wood,J.M., Wray,P.W., Wyatt,J.C., Young,L., Younger,R.M.,
+            Bentley,D.R., Coulson,A., Durbin,R., Hubbard,T., Sulston,J.E.,
+            Dunham,I., Rogers,J. and Beck,S.
+  TITLE     The DNA sequence and analysis of human chromosome 6
+  JOURNAL   Nature 425 (6960), 805-811 (2003)
+   PUBMED   14574404
+REFERENCE   3  (bases 1 to 8837)
+  AUTHORS   Lander,E.S., Linton,L.M., Birren,B., Nusbaum,C., Zody,M.C.,
+            Baldwin,J., Devon,K., Dewar,K., Doyle,M., FitzHugh,W., Funke,R.,
+            Gage,D., Harris,K., Heaford,A., Howland,J., Kann,L., Lehoczky,J.,
+            LeVine,R., McEwan,P., McKernan,K., Meldrim,J., Mesirov,J.P.,
+            Miranda,C., Morris,W., Naylor,J., Raymond,C., Rosetti,M.,
+            Santos,R., Sheridan,A., Sougnez,C., Stange-Thomann,N.,
+            Stojanovic,N., Subramanian,A., Wyman,D., Rogers,J., Sulston,J.,
+            Ainscough,R., Beck,S., Bentley,D., Burton,J., Clee,C., Carter,N.,
+            Coulson,A., Deadman,R., Deloukas,P., Dunham,A., Dunham,I.,
+            Durbin,R., French,L., Grafham,D., Gregory,S., Hubbard,T.,
+            Humphray,S., Hunt,A., Jones,M., Lloyd,C., McMurray,A., Matthews,L.,
+            Mercer,S., Milne,S., Mullikin,J.C., Mungall,A., Plumb,R., Ross,M.,
+            Shownkeen,R., Sims,S., Waterston,R.H., Wilson,R.K., Hillier,L.W.,
+            McPherson,J.D., Marra,M.A., Mardis,E.R., Fulton,L.A.,
+            Chinwalla,A.T., Pepin,K.H., Gish,W.R., Chissoe,S.L., Wendl,M.C.,
+            Delehaunty,K.D., Miner,T.L., Delehaunty,A., Kramer,J.B., Cook,L.L.,
+            Fulton,R.S., Johnson,D.L., Minx,P.J., Clifton,S.W., Hawkins,T.,
+            Branscomb,E., Predki,P., Richardson,P., Wenning,S., Slezak,T.,
+            Doggett,N., Cheng,J.F., Olsen,A., Lucas,S., Elkin,C.,
+            Uberbacher,E., Frazier,M., Gibbs,R.A., Muzny,D.M., Scherer,S.E.,
+            Bouck,J.B., Sodergren,E.J., Worley,K.C., Rives,C.M., Gorrell,J.H.,
+            Metzker,M.L., Naylor,S.L., Kucherlapati,R.S., Nelson,D.L.,
+            Weinstock,G.M., Sakaki,Y., Fujiyama,A., Hattori,M., Yada,T.,
+            Toyoda,A., Itoh,T., Kawagoe,C., Watanabe,H., Totoki,Y., Taylor,T.,
+            Weissenbach,J., Heilig,R., Saurin,W., Artiguenave,F., Brottier,P.,
+            Bruls,T., Pelletier,E., Robert,C., Wincker,P., Smith,D.R.,
+            Doucette-Stamm,L., Rubenfield,M., Weinstock,K., Lee,H.M.,
+            Dubois,J., Rosenthal,A., Platzer,M., Nyakatura,G., Taudien,S.,
+            Rump,A., Yang,H., Yu,J., Wang,J., Huang,G., Gu,J., Hood,L.,
+            Rowen,L., Madan,A., Qin,S., Davis,R.W., Federspiel,N.A.,
+            Abola,A.P., Proctor,M.J., Myers,R.M., Schmutz,J., Dickson,M.,
+            Grimwood,J., Cox,D.R., Olson,M.V., Kaul,R., Raymond,C., Shimizu,N.,
+            Kawasaki,K., Minoshima,S., Evans,G.A., Athanasiou,M., Schultz,R.,
+            Roe,B.A., Chen,F., Pan,H., Ramser,J., Lehrach,H., Reinhardt,R.,
+            McCombie,W.R., de la Bastide,M., Dedhia,N., Blocker,H.,
+            Hornischer,K., Nordsiek,G., Agarwala,R., Aravind,L., Bailey,J.A.,
+            Bateman,A., Batzoglou,S., Birney,E., Bork,P., Brown,D.G.,
+            Burge,C.B., Cerutti,L., Chen,H.C., Church,D., Clamp,M.,
+            Copley,R.R., Doerks,T., Eddy,S.R., Eichler,E.E., Furey,T.S.,
+            Galagan,J., Gilbert,J.G., Harmon,C., Hayashizaki,Y., Haussler,D.,
+            Hermjakob,H., Hokamp,K., Jang,W., Johnson,L.S., Jones,T.A.,
+            Kasif,S., Kaspryzk,A., Kennedy,S., Kent,W.J., Kitts,P.,
+            Koonin,E.V., Korf,I., Kulp,D., Lancet,D., Lowe,T.M., McLysaght,A.,
+            Mikkelsen,T., Moran,J.V., Mulder,N., Pollara,V.J., Ponting,C.P.,
+            Schuler,G., Schultz,J., Slater,G., Smit,A.F., Stupka,E.,
+            Szustakowski,J., Thierry-Mieg,D., Thierry-Mieg,J., Wagner,L.,
+            Wallis,J., Wheeler,R., Williams,A., Wolf,Y.I., Wolfe,K.H.,
+            Yang,S.P., Yeh,R.F., Collins,F., Guyer,M.S., Peterson,J.,
+            Felsenfeld,A., Wetterstrand,K.A., Patrinos,A., Morgan,M.J., de
+            Jong,P., Catanese,J.J., Osoegawa,K., Shizuya,H., Choi,S. and
+            Chen,Y.J.
+  CONSRTM   International Human Genome Sequencing Consortium
+  TITLE     Initial sequencing and analysis of the human genome
+  JOURNAL   Nature 409 (6822), 860-921 (2001)
+   PUBMED   11237011
+  REMARK    Erratum:[Nature 2001 Aug 2;412(6846):565]
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM000668.2.
+            On Feb 3, 2014 this sequence version replaced gi:224589818.
+            Assembly Name: GRCh38.p2 Primary Assembly
+            The DNA sequence is composed of genomic sequence, primarily
+            finished clones that were sequenced as part of the Human Genome
+            Project. PCR products and WGS shotgun sequence have been added
+            where necessary to fill gaps or correct errors. All such additions
+            are manually curated by GRC staff. For more information see:
+            http://genomereference.org.
+
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Homo sapiens Annotation Release 107
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 6.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..8837
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="6"
+     gene            1..8837
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="hemochromatosis; Derived by automated computational
+                     analysis using gene prediction method: BestRefSeq,Gnomon."
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,3561..3824,4034..4309,5405..5680,5839..5952,
+                     6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_000410.3"
+                     /db_xref="GI:91718876"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,3561..3824,4034..4309,5405..5680,5839..5952,
+                     7124..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 12"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_001300749.1"
+                     /db_xref="GI:663429516"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,3561..3824,4034..4309,5447..5680,5839..5952,
+                     6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 6"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139006.2"
+                     /db_xref="GI:91718880"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,3561..3824,5405..5680,5839..5952,6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 4"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139004.2"
+                     /db_xref="GI:91718878"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,3561..3824,5447..5680,5839..5952,6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139003.2"
+                     /db_xref="GI:91718877"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,3630..3824,4034..4309,5405..5680,5839..5952,
+                     6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 9"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139009.2"
+                     /db_xref="GI:91718883"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,4034..4309,5405..5680,5839..5952,6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 7"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139007.2"
+                     /db_xref="GI:91718881"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,4034..4309,5447..5680,5839..5952,6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 8"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139008.2"
+                     /db_xref="GI:91718882"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,5405..5680,5839..5952,6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 10"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139010.2"
+                     /db_xref="GI:91718884"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(1..236,5839..5952,6906..7961)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant 11"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: BestRefSeq."
+                     /transcript_id="NM_139011.2"
+                     /db_xref="GI:91718887"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(39..236,3561..3824,4034..4309,5329..5361,5447..5680,
+                     5839..5952,6906..8837)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant X3"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 9 mRNAs, 42 ESTs, 2 Proteins, and
+                     90% coverage of the annotated genomic feature by RNAseq
+                     alignments"
+                     /transcript_id="XM_011514544.1"
+                     /db_xref="GI:767939872"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     mRNA            join(39..236,3561..3824,4034..4309,5405..5680,5839..5952,
+                     6906..6938,7124..8837)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant X1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 8 mRNAs, 41 ESTs, 7 Proteins, and
+                     92% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 44 samples with support for all
+                     annotated introns"
+                     /transcript_id="XM_011514543.1"
+                     /db_xref="GI:767939869"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     misc_RNA        join(39..236,3561..3824,4034..4309,5405..5746,5839..5931)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /product="hemochromatosis, transcript variant X2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 mRNA, 38 ESTs, 2 Proteins, and
+                     100% coverage of the annotated genomic feature by RNAseq
+                     alignments, including 33 samples with support for all
+                     annotated introns"
+                     /transcript_id="XR_241893.2"
+                     /db_xref="GI:767939871"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+     CDS             join(161..236,3561..3824,4034..4309,5405..5680,5839..5952,
+                     6906..6938,7124..7131)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform X1"
+                     /protein_id="XP_011512845.1"
+                     /db_xref="GI:767939870"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLRSHSLHYLFMGASEQDLGL
+                     SLFEALGYVDDQLFVFYDHESRRVEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDF
+                     WTIMENHNHSKESHTLQVILGCEMQEDNSTEGYWKYGYDGQDHLEFCPDTLDWRAAEP
+                     RAWPTKLEWERHKIRARQNRAYLERDCPAQLQQLLELGRGVLDQQVPPLVKVTHHVTS
+                     SVTTLRCRALNYYPQNITMKWLKDKQPMDAKEFEPKDVLPNGDGTYQGWITLAVPPGE
+                     EQRYTCQVEHPGLDQPLIVIWEPSPSGTLVIGVISGIAVFVVILFIGILFIILRKRQG
+                     SRGAMGHYVLAERF"
+     CDS             join(161..236,3561..3824,4034..4309,5405..5680,5839..5952,
+                     7124..7131)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 12 precursor is encoded by transcript
+                     variant 12; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 12
+                     precursor"
+                     /protein_id="NP_001287678.1"
+                     /db_xref="GI:663429517"
+                     /db_xref="CCDS:CCDS75412.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLRSHSLHYLFMGASEQDLGL
+                     SLFEALGYVDDQLFVFYDHESRRVEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDF
+                     WTIMENHNHSKESHTLQVILGCEMQEDNSTEGYWKYGYDGQDHLEFCPDTLDWRAAEP
+                     RAWPTKLEWERHKIRARQNRAYLERDCPAQLQQLLELGRGVLDQQVPPLVKVTHHVTS
+                     SVTTLRCRALNYYPQNITMKWLKDKQPMDAKEFEPKDVLPNGDGTYQGWITLAVPPGE
+                     EQRYTCQVEHPGLDQPLIVIWEPSPSGTLVIGVISGIAVFVVILFIGILFIILRKRQG
+                     SSF"
+     CDS             join(161..236,3561..3824,4034..4309,5329..5361,5447..5680,
+                     5839..5952,6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform X2"
+                     /protein_id="XP_011512846.1"
+                     /db_xref="GI:767939873"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLRSHSLHYLFMGASEQDLGL
+                     SLFEALGYVDDQLFVFYDHESRRVEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDF
+                     WTIMENHNHSKESHTLQVILGCEMQEDNSTEGYWKYGYDGQDHLEFCPDTLDWRAAEP
+                     RAWPTKLEWERHKIRARQNRAYLERDCPAQLQQLLELGRGVLDQQEGSESSSLPGKVT
+                     TLRCRALNYYPQNITMKWLKDKQPMDAKEFEPKDVLPNGDGTYQGWITLAVPPGEEQR
+                     YTCQVEHPGLDQPLIVIWEPSPSGTLVIGVISGIAVFVVILFIGILFIILRKRQGSRG
+                     AMGHYVLAERE"
+     CDS             join(161..236,3561..3824,4034..4309,5405..5680,5839..5952,
+                     6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 1 precursor is encoded by transcript
+                     variant 1; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 1
+                     precursor"
+                     /protein_id="NP_000401.1"
+                     /db_xref="GI:4504377"
+                     /db_xref="CCDS:CCDS4578.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLRSHSLHYLFMGASEQDLGL
+                     SLFEALGYVDDQLFVFYDHESRRVEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDF
+                     WTIMENHNHSKESHTLQVILGCEMQEDNSTEGYWKYGYDGQDHLEFCPDTLDWRAAEP
+                     RAWPTKLEWERHKIRARQNRAYLERDCPAQLQQLLELGRGVLDQQVPPLVKVTHHVTS
+                     SVTTLRCRALNYYPQNITMKWLKDKQPMDAKEFEPKDVLPNGDGTYQGWITLAVPPGE
+                     EQRYTCQVEHPGLDQPLIVIWEPSPSGTLVIGVISGIAVFVVILFIGILFIILRKRQG
+                     SRGAMGHYVLAERE"
+     CDS             join(161..236,3561..3824,4034..4309,5447..5680,5839..5952,
+                     6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 6 precursor is encoded by transcript
+                     variant 6; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 6
+                     precursor"
+                     /protein_id="NP_620575.1"
+                     /db_xref="GI:21040347"
+                     /db_xref="CCDS:CCDS54974.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLRSHSLHYLFMGASEQDLGL
+                     SLFEALGYVDDQLFVFYDHESRRVEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDF
+                     WTIMENHNHSKESHTLQVILGCEMQEDNSTEGYWKYGYDGQDHLEFCPDTLDWRAAEP
+                     RAWPTKLEWERHKIRARQNRAYLERDCPAQLQQLLELGRGVLDQQVTTLRCRALNYYP
+                     QNITMKWLKDKQPMDAKEFEPKDVLPNGDGTYQGWITLAVPPGEEQRYTCQVEHPGLD
+                     QPLIVIWEPSPSGTLVIGVISGIAVFVVILFIGILFIILRKRQGSRGAMGHYVLAERE
+                     "
+     CDS             join(161..236,3561..3824,5405..5680,5839..5952,6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 4 precursor is encoded by transcript
+                     variant 4; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 4
+                     precursor"
+                     /protein_id="NP_620573.1"
+                     /db_xref="GI:21040343"
+                     /db_xref="CCDS:CCDS4579.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLRSHSLHYLFMGASEQDLGL
+                     SLFEALGYVDDQLFVFYDHESRRVEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDF
+                     WTIMENHNHSKVPPLVKVTHHVTSSVTTLRCRALNYYPQNITMKWLKDKQPMDAKEFE
+                     PKDVLPNGDGTYQGWITLAVPPGEEQRYTCQVEHPGLDQPLIVIWEPSPSGTLVIGVI
+                     SGIAVFVVILFIGILFIILRKRQGSRGAMGHYVLAERE"
+     CDS             join(161..236,3561..3824,5447..5680,5839..5952,6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 3 precursor is encoded by transcript
+                     variant 3; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 3
+                     precursor"
+                     /protein_id="NP_620572.1"
+                     /db_xref="GI:21040341"
+                     /db_xref="CCDS:CCDS47386.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLRSHSLHYLFMGASEQDLGL
+                     SLFEALGYVDDQLFVFYDHESRRVEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDF
+                     WTIMENHNHSKVTTLRCRALNYYPQNITMKWLKDKQPMDAKEFEPKDVLPNGDGTYQG
+                     WITLAVPPGEEQRYTCQVEHPGLDQPLIVIWEPSPSGTLVIGVISGIAVFVVILFIGI
+                     LFIILRKRQGSRGAMGHYVLAERE"
+     CDS             join(161..236,3630..3824,4034..4309,5405..5680,5839..5952,
+                     6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 9 precursor is encoded by transcript
+                     variant 9; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 9
+                     precursor"
+                     /protein_id="NP_620578.1"
+                     /db_xref="GI:21040353"
+                     /db_xref="CCDS:CCDS47387.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLPLGYVDDQLFVFYDHESRR
+                     VEPRTPWVSSRISSQMWLQLSQSLKGWDHMFTVDFWTIMENHNHSKESHTLQVILGCE
+                     MQEDNSTEGYWKYGYDGQDHLEFCPDTLDWRAAEPRAWPTKLEWERHKIRARQNRAYL
+                     ERDCPAQLQQLLELGRGVLDQQVPPLVKVTHHVTSSVTTLRCRALNYYPQNITMKWLK
+                     DKQPMDAKEFEPKDVLPNGDGTYQGWITLAVPPGEEQRYTCQVEHPGLDQPLIVIWEP
+                     SPSGTLVIGVISGIAVFVVILFIGILFIILRKRQGSRGAMGHYVLAERE"
+     CDS             join(161..236,4034..4309,5405..5680,5839..5952,6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 7 precursor is encoded by transcript
+                     variant 7; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 7
+                     precursor"
+                     /protein_id="NP_620576.1"
+                     /db_xref="GI:21040349"
+                     /db_xref="CCDS:CCDS4580.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLQSHTLQVILGCEMQEDNST
+                     EGYWKYGYDGQDHLEFCPDTLDWRAAEPRAWPTKLEWERHKIRARQNRAYLERDCPAQ
+                     LQQLLELGRGVLDQQVPPLVKVTHHVTSSVTTLRCRALNYYPQNITMKWLKDKQPMDA
+                     KEFEPKDVLPNGDGTYQGWITLAVPPGEEQRYTCQVEHPGLDQPLIVIWEPSPSGTLV
+                     IGVISGIAVFVVILFIGILFIILRKRQGSRGAMGHYVLAERE"
+     CDS             join(161..236,4034..4309,5447..5680,5839..5952,6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 8 precursor is encoded by transcript
+                     variant 8; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 8
+                     precursor"
+                     /protein_id="NP_620577.1"
+                     /db_xref="GI:21040351"
+                     /db_xref="CCDS:CCDS54975.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLQSHTLQVILGCEMQEDNST
+                     EGYWKYGYDGQDHLEFCPDTLDWRAAEPRAWPTKLEWERHKIRARQNRAYLERDCPAQ
+                     LQQLLELGRGVLDQQVTTLRCRALNYYPQNITMKWLKDKQPMDAKEFEPKDVLPNGDG
+                     TYQGWITLAVPPGEEQRYTCQVEHPGLDQPLIVIWEPSPSGTLVIGVISGIAVFVVIL
+                     FIGILFIILRKRQGSRGAMGHYVLAERE"
+     CDS             join(161..236,5405..5680,5839..5952,6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 10 precursor is encoded by transcript
+                     variant 10; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 10
+                     precursor"
+                     /protein_id="NP_620579.1"
+                     /db_xref="GI:21040355"
+                     /db_xref="CCDS:CCDS4581.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLLPPLVKVTHHVTSSVTTLR
+                     CRALNYYPQNITMKWLKDKQPMDAKEFEPKDVLPNGDGTYQGWITLAVPPGEEQRYTC
+                     QVEHPGLDQPLIVIWEPSPSGTLVIGVISGIAVFVVILFIGILFIILRKRQGSRGAMG
+                     HYVLAERE"
+     CDS             join(161..236,5839..5952,6906..6946)
+                     /gene="HFE"
+                     /gene_synonym="HFE1; HH; HLA-H; MVCD7; TFQTL2"
+                     /note="isoform 11 precursor is encoded by transcript
+                     variant 11; Derived by automated computational analysis
+                     using gene prediction method: BestRefSeq."
+                     /codon_start=1
+                     /product="hereditary hemochromatosis protein isoform 11
+                     precursor"
+                     /protein_id="NP_620580.1"
+                     /db_xref="GI:21040357"
+                     /db_xref="CCDS:CCDS4582.1"
+                     /db_xref="GeneID:3077"
+                     /db_xref="HGNC:HGNC:4886"
+                     /db_xref="MIM:613609"
+                     /translation="MGPRARPALLLLMLLQTAVLQGRLLQPSPSGTLVIGVISGIAVF
+                     VVILFIGILFIILRKRQGSRGAMGHYVLAERE"
+ORIGIN
+        1 ctaaagttct gaaagacctg ttgcttttca ccaggaagtt ttactgggca tctcctgagc
+       61 ctaggcaata gctgtagggt gacttctgga gccatccccg tttccccgcc ccccaaaaga
+      121 agcggagatt taacggggac gtgcggccag agctggggaa atgggcccgc gagccaggcc
+      181 ggcgcttctc ctcctgatgc ttttgcagac cgcggtcctg caggggcgct tgctgcgtga
+      241 gtccgagggc tgcgggcgaa ctaggggcgc ggcgggggtg gaaaaatcga aactagcttt
+      301 ttctttgcgc ttgggagttt gctaactttg gaggacctgc tcaaccctat ccgcaagccc
+      361 ctctccctac tttctgcgtc cagaccccgt gagggagtgc ctaccactga actgcagata
+      421 ggggtccctc gccccaggac ctgccccctc ccccggctgt cccggctctg cggagtgact
+      481 tttggaaccg cccactccct tcccccaact agaatgcttt taaataaatc tcgtagttcc
+      541 tcacttgagc tgagctaagc ctggggctcc ttgaacctgg aactcgggtt tatttccaat
+      601 gtcagctgtg cagttttttc cccagtcatc tccaaacagg aagttcttcc ctgagtgctt
+      661 gccgagaagg ctgagcaaac ccacagcagg atccgcacgg ggtttccacc tcagaacgaa
+      721 tgcgttgggc ggtgggggcg cgaaagagtg gcgttgggga tctgaattct tcaccattcc
+      781 acccactttt ggtgagacct ggggtggagg tctctagggt gggaggctcc tgagagaggc
+      841 ctacctcggg cctttcccca ctcttggcaa ttgttctttt gcctggaaaa ttaagtatat
+      901 gttagttttg aacgtttgaa ctgaacaatt ctcttttcgg ctaggcttta ttgatttgca
+      961 atgtgctgtg taattaagag gcctctctac aaagtactga taatgaacat gtaagcaatg
+     1021 cactcacttc taagttacat tcatatctga tcttatttga ttttcactag gcatagggag
+     1081 gtaggagcta ataatacgtt tattttacta gaagttaact ggaattcaga ttatataact
+     1141 cttttcaggt tacaaagaac ataaataatc tggttttctg atgttatttc aagtactaca
+     1201 gctgcttcta atcttagttg acagtgattt tgccctgtag tgtagcacag tgttctgtgg
+     1261 gtcacacgcc ggcctcagca cagcactttg agttttggta ctacgtgtat ccacatttta
+     1321 cacatgacaa gaatgaggca tggcacggcc tgcttcctgg caaatttatt caatggtaca
+     1381 ctgggctttg gtggcagagc tcatgtctcc acttcatagc tatgattctt aaacatcaca
+     1441 ctgcattaga ggttgaataa taaaatttca tgttgagcag aaatattcat tgtttacaag
+     1501 tgtaaatgag tcccagccat gtgttgcact gttcaagccc caagggagag agcagggaaa
+     1561 caagtcttta ccctttgata ttttgcattc tagtgggaga gatgacaata agcaaatgag
+     1621 cagaaagata tacaacatca ggaaatcatg ggtgttgtga gaagcagaga agtcagggca
+     1681 agtcactctg gggctgacac ttgagcagag acatgaagga aataagaatg atattgactg
+     1741 ggagcagtat ttcccaggca aactgagtgg gcctggcaag ttggattaaa aagcgggttt
+     1801 tctcagcact actcatgtgt gtgtgtgtgg gggggggggg cggcgtgggg gtgggaaggg
+     1861 ggactaccat ctgcatgtag gatgtctagc agtatcctgt cctccctact cactaggtgc
+     1921 taggagcact cccccagtct tgacaaccaa aaatgtctct aaactttgcc acatgtcacc
+     1981 tagtagacaa actcctggtt aagaagctcg ggttgaaaaa aataaacaag tagtgctggg
+     2041 gagtagaggc caagaagtag gtaatgggct cagaagagga gccacaaaca aggttgtgca
+     2101 ggcgcctgta ggctgtggtg tgaattctag ccaaggagta acagtgatct gtcacaggct
+     2161 tttaaaagat tgctctggct gctatgtgga aagcagaatg aagggagcaa cagtaaaagc
+     2221 agggagccca gccaggaagc tgttacacag tccaggcaag aggtagtgga gtgggctggg
+     2281 tgggaacaga aaagggagtg acaaaccatt gtctcctgaa tatattctga aggaagttgc
+     2341 tgaaggattc tatgttgtgt gagagaaaga gaagaattgg ctgggtgtag tagctcatgc
+     2401 caaggaggag gccaaggaga gcagattcct gagctcagga gttcaagacc agcctgggca
+     2461 acacagcaaa accccttctc tacaaaaaat acaaaaatta gctgggtgtg gtggcatgca
+     2521 cctgtgatcc tagctactcg ggaggctgag gtggagggta ttgcttgagc ccaggaagtt
+     2581 gaggctgcag tgagccatga ctgtgccact gtacttcagc ctaggtgaca gagcaagacc
+     2641 ctgtctcccc tgaccccctg aaaaagagaa gagttaaagt tgactttgtt ctttatttta
+     2701 attttattgg cctgagcagt ggggtaattg gcaatgccat ttctgagatg gtgaaggcag
+     2761 aggaaagagc agtttggggt aaatcaagga tctgcatttg gacatgttaa gtttgagatt
+     2821 ccagtcaggc ttccaagtgg tgaggccaca taggcagttc agtgtaagaa ttcaggacca
+     2881 aggctgggca cggtggctca cttctgtaat cccagcactt tggtggctga ggcaggtaga
+     2941 tcatttgagg tcaggagttt gagacaagct tggccaacat ggtgaaaccc catgtctact
+     3001 aaaaatacaa aaattagcct ggtgtggtgg cgcacgccta tagtcccagg ttttcaggag
+     3061 gcttaggtag gagaatccct tgaacccagg aggtgcaggt tgcagtgagc tgagattgtg
+     3121 ccactgcact ccagcctggg tgatagagtg agactctgtc tcaaaaaaaa aaaaaaaaaa
+     3181 aaaaaaaaaa actgaaggaa ttattcctca ggatttgggt ctaatttgcc ctgagcacca
+     3241 actcctgagt tcaactacca tggctagaca caccttaaca ttttctagaa tccaccagct
+     3301 ttagtggagt ctgtctaatc atgagtattg gaataggatc tgggggcagt gagggggtgg
+     3361 cagccacgtg tggcagagaa aagcacacaa ggaaagagca cccaggactg tcatatggaa
+     3421 gaaagacagg actgcaactc acccttcaca aaatgaggac cagacacagc tgatggtatg
+     3481 agttgatgca ggtgtgtgga gcctcaacat cctgctcccc tcctactaca catggttaag
+     3541 gcctgttgct ctgtctccag gttcacactc tctgcactac ctcttcatgg gtgcctcaga
+     3601 gcaggacctt ggtctttcct tgtttgaagc tttgggctac gtggatgacc agctgttcgt
+     3661 gttctatgat catgagagtc gccgtgtgga gccccgaact ccatgggttt ccagtagaat
+     3721 ttcaagccag atgtggctgc agctgagtca gagtctgaaa gggtgggatc acatgttcac
+     3781 tgttgacttc tggactatta tggaaaatca caaccacagc aagggtatgt ggagaggggg
+     3841 cctcaccttc ctgaggttgt cagagctttt catcttttca tgcatcttga aggaaacagc
+     3901 tggaagtctg aggtcttgtg ggagcaggga agagggaagg aatttgcttc ctgagatcat
+     3961 ttggtccttg gggatggtgg aaatagggac ctattccttt ggttgcagtt aacaaggctg
+     4021 gggatttttc cagagtccca caccctgcag gtcatcctgg gctgtgaaat gcaagaagac
+     4081 aacagtaccg agggctactg gaagtacggg tatgatgggc aggaccacct tgaattctgc
+     4141 cctgacacac tggattggag agcagcagaa cccagggcct ggcccaccaa gctggagtgg
+     4201 gaaaggcaca agattcgggc caggcagaac agggcctacc tggagaggga ctgccctgca
+     4261 cagctgcagc agttgctgga gctggggaga ggtgttttgg accaacaagg tatggtggaa
+     4321 acacacttct gcccctatac tctagtggca gagtggagga ggttgcaggg cacggaatcc
+     4381 ctggttggag tttcagaggt ggctgaggct gtgtgcctct ccaaattctg ggaagggact
+     4441 ttctcaatcc tagagtctct accttataat tgagatgtat gagacagcca caagtcatgg
+     4501 gtttaatttc ttttctccat gcatatggct caaagggaag tgtctatggc ccttgctttt
+     4561 tatttaacca ataatctttt gtatatttat acctgttaaa aattcagaaa tgtcaaggcc
+     4621 gggcacggtg gctcacccct gtaatcccag cactttggga ggccgaggcg ggtggtcaca
+     4681 aggtcaggag tttgagacca gcctgaccaa catggtgaaa cccgtctcta aaaaaataca
+     4741 aaaattagct ggtcacagtc atgcgcacct gtagtcccag ctaattggaa ggctgaggca
+     4801 ggagcatcgc ttgaacctgg gaagcggaag ttgcactgag ccaagatcgc gccactgcac
+     4861 tccagcctag gcagcagagt gagactccat cttaaaaaaa aaaaaaaaaa aaaaaagaga
+     4921 attcagagat ctcagctatc atatgaatac caggacaaaa tatcaagtga ggccacttat
+     4981 cagagtagaa gaatccttta ggttaaaagt ttctttcata gaacatagca ataatcactg
+     5041 aagctaccta tcttacaagt ccgcttctta taacaatgcc tcctaggttg acccaggtga
+     5101 aactgaccat ctgtattcaa tcattttcaa tgcacataaa gggcaatttt atctatcaga
+     5161 acaaagaaca tgggtaacag atatgtatat ttacatgtga ggagaacaag ctgatctgac
+     5221 tgctctccaa gtgacactgt gttagagtcc aatcttagga cacaaaatgg tgtctctcct
+     5281 gtagcttgtt tttttctgaa aagggtattt ccttcctcca acctatagaa ggaagtgaaa
+     5341 gttccagtct tcctggcaag ggtaaacaga tcccctctcc tcatccttcc tctttcctgt
+     5401 caagtgcctc ctttggtgaa ggtgacacat catgtgacct cttcagtgac cactctacgg
+     5461 tgtcgggcct tgaactacta cccccagaac atcaccatga agtggctgaa ggataagcag
+     5521 ccaatggatg ccaaggagtt cgaacctaaa gacgtattgc ccaatgggga tgggacctac
+     5581 cagggctgga taaccttggc tgtaccccct ggggaagagc agagatatac gtgccaggtg
+     5641 gagcacccag gcctggatca gcccctcatt gtgatctggg gtatgtgact gatgagagcc
+     5701 aggagctgag aaaatctatt gggggttgag aggagtgcct gaggaggtaa ttatggcagt
+     5761 gagatgagga tctgctcttt gttagggggt gggctgaggg tggcaatcaa aggctttaac
+     5821 ttgctttttc tgttttagag ccctcaccgt ctggcaccct agtcattgga gtcatcagtg
+     5881 gaattgctgt ttttgtcgtc atcttgttca ttggaatttt gttcataata ttaaggaaga
+     5941 ggcagggttc aagtgagtag gaacaagggg gaagtctctt agtacctctg ccccagggca
+     6001 cagtgggaag aggggcagag gggatctggc atccatggga agcatttttc tcatttatat
+     6061 tctttgggga caccagcagc tccctgggag acagaaaata atggttctcc ccagaatgaa
+     6121 agtctctaat tcaacaaaca tcttcagagc acctactatt ttgcaagagc tgtttaaggt
+     6181 agtacagggg ctttgaggtt gagaagtcac tgtggctatt ctcagaaccc aaatctggta
+     6241 gggaatgaaa ttgatagcaa gtaaatgtag ttaaagaaga ccccatgagg tcctaaagca
+     6301 ggcaggaagc aaatgcttag ggtgtcaaag gaaagaatga tcacattcag ctggggatca
+     6361 agatagcctt ctggatcttg aaggagaagc tggattccat taggtgaggt tgaagatgat
+     6421 gggaggtcta cacagacgga gcaaccatgc caagtaggag agtataaggc atactgggag
+     6481 attagaaata attactgtac cttaaccctg agtttgcgta gctatcactc accaattatg
+     6541 catttctacc ccctgaacat ctgtggtgta gggaaaagag aatcagaaag aagccagctc
+     6601 atacagagtc caagggtctt ttgggatatt gggttatgat cactggggtg tcattgaagg
+     6661 atcctaagaa aggaggacca cgatctccct tatatggtga atgtgttgtt aagaagttag
+     6721 atgagaggtg aggagaccag ttagaaagcc aataagcatt tccagatgag agataatggt
+     6781 tcttgaaatc caatagtgcc caggtctaaa ttgagatggg tgaatgagga aaataaggaa
+     6841 gagagaagag gcaagatggt gcctaggttt gtgatgcctc tttcctgggt ctcttgtctc
+     6901 cacaggagga gccatggggc actacgtctt agctgaacgt gagtgacacg cagcctgcag
+     6961 actcactgtg ggaaggagac aaaactagag actcaaagag ggagtgcatt tatgagctct
+     7021 tcatgtttca ggagagagtt gaacctaaac atagaaattg cctgacgaac tccttgattt
+     7081 tagccttctc tgttcatttc ctcaaaaaga tttccccatt taggtttctg agttcctgca
+     7141 tgccggtgat ccctagctgt gacctctccc ctggaactgt ctctcatgaa cctcaagctg
+     7201 catctagagg cttccttcat ttcctccgtc acctcagaga catacaccta tgtcatttca
+     7261 tttcctattt ttggaagagg actccttaaa tttgggggac ttacatgatt cattttaaca
+     7321 tctgagaaaa gctttgaacc ctgggacgtg gctagtcata accttaccag atttttacac
+     7381 atgtatctat gcattttctg gacccgttca acttttcctt tgaatcctct ctctgtgtta
+     7441 cccagtaact catctgtcac caagccttgg ggattcttcc atctgattgt gatgtgagtt
+     7501 gcacagctat gaaggctgta cactgcacga atggaagagg cacctgtccc agaaaaagca
+     7561 tcatggctat ctgtgggtag tatgatgggt gtttttagca ggtaggaggc aaatatcttg
+     7621 aaaggggttg tgaagaggtg ttttttctaa ttggcatgaa ggtgtcatac agatttgcaa
+     7681 agtttaatgg tgccttcatt tgggatgcta ctctagtatt ccagacctga agaatcacaa
+     7741 taattttcta cctggtctct ccttgttctg ataatgaaaa ttatgataag gatgataaaa
+     7801 gcacttactt cgtgtccgac tcttctgagc acctacttac atgcattact gcatgcactt
+     7861 cttacaataa ttctatgaga taggtactat tatccccatt tcttttttaa atgaagaaag
+     7921 tgaagtaggc cgggcacggt ggctcacgcc tgtaatccca gcactttggg aggccaaagc
+     7981 gggtggatca cgaggtcagg agatcgagac catcctggct aacatggtga aaccccatct
+     8041 ctaataaaaa tacaaaaaat tagctgggcg tggtggcaga cgcctgtagt cccagctact
+     8101 cggaaggctg aggcaggaga atggcatgaa cccaggaggc agagcttgca gtgagccgag
+     8161 tttgcgccac tgcactccag cctaggtgac agagtgagac tccatctcaa aaaaataaaa
+     8221 ataaaaataa aaaaatgaaa aaaaaaagaa agtgaagtat agagtatctc atagtttgtc
+     8281 agtgatagaa acaggtttca aactcagtca atctgaccgt ttgatacatc tcagacacca
+     8341 ctacattcag tagtttagat gcctagaata aatagagaag gaaggagatg gctcttctct
+     8401 tgtctcattg tgtttcttct gagtgagctt gaatcacatg aaggggaaca gcagaaaaca
+     8461 accaactgat cctcagctgt catgtttcct ttaaaagtcc ctgaaggaag gtcctggaat
+     8521 gtgactccct tgctcctctg ttgctctctt tggcattcat ttctttggac cctacgcaag
+     8581 gactgtaatt ggtggggaca gctagtggcc ctgctgggct tcacacacgg tgtcctccct
+     8641 aggccagtgc ctctggagtc agaactctgg tggtatttcc ctcaatgaag tggagtaagc
+     8701 tctctcattt tgagatggta taatggaagc caccaagtgg cttagaggat gcccaggtcc
+     8761 ttccatggag ccactggggt tccggtgcac attaaaaaaa aaatctaacc aggacattca
+     8821 ggaattgcta gattctg
+//
