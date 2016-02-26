@@ -65,9 +65,13 @@ from Bio import Entrez
 Entrez.email = "brendan.lawlor@gmail.com"     # Always tell NCBI who you are
 # handle = Entrez.einfo()
 # handle = Entrez.esearch(db="pubmed", term="rs1800562") #rs1800562
-handle = Entrez.esearch(db="snp", term="rs1800562") #rs1800562
-record = Entrez.read(handle)
+# handle = Entrez.esearch(db="snp", term="rs1800562") #rs1800562
+# record = Entrez.read(handle)
 # print "\n".join(record['DbList'])
-print record
-
-
+# print record
+ids= ['17530654', '4134660', '1800562']
+for id in ids:
+    handle = Entrez.efetch(db="snp", id=id)
+    with open("../data/snp" + id + ".txt", "w") as output:
+        output.write(handle.read())
+# print handle.read()
