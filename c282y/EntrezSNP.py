@@ -1,35 +1,92 @@
 from Bio import Entrez
+import xml.etree.ElementTree as ET
+import re
+
 from pprint import pprint as pp
 # from xml.dom.minidom import parseString
 # import re
 Entrez.email = "brendan.lawlor@gmail.com"     # Always tell NCBI who you are
 # handle = Entrez.esearch(db="snp", term="HFE[Gene], c282y")
 # record = Entrez.read(handle)
+# print('Number of results: ' + record['Count'])
+# c282y_records = record['IdList']
 # handle.close()
 
+# In order to avoid calling Entrez over and over, this is the list of records returned.
 c282y_records = ['115372583', '111535158', '111033563', '58044250', '28934888', '28934597', '17530654', '4134660', '1800730', '1800562']
 
-
+# Attempt 1
 # for id in c282y_records:
-# handle = Entrez.efetch(db="snp", id="1800730")#, rettype='flt', retmode='xml')
-# res = handle.read()
-# handle.close()
-# print res
-# result = Entrez.read(handle)
-# result = parseString(handle.read())
-# handle.close()
-# nodes = result.getElementsByTagName('hgvs')
-# for node in nodes:
-#     if 'NP_' in node.firstChild.nodeValue:
-#         flag = 1
-#         val = node.firstChild.nodeValue
-#         regex1 = r'[A-Z][a-z]+'
-#         regex2 = r'[0-9]+'
-#         aa = re.findall(regex1, val)
-#         pos = re.findall(regex2, val)
-#         print aa[0] + " > " + aa[1] + " Position: " + pos[2]
-# if flag == 0:
-#     print "SNP not in coding region
+#     handle = Entrez.efetch(db="snp", id=id)#, rettype='flt', retmode='xml')
+#     # This handle.read function returns a kind of pseudo-json which can't be easily parsed.
+#     res = handle.read()
+#     handle.close();
+#     print res
+
+# Attempt 2 - use the xml output and parse it independently of BioPython (which doesn't like namespaces)
+# An alternative would be to string the namespace from the xml, save it into a tmp file,
+# reload and parse using Entrez.parse
+
+
+def findMergedRecordIds(rs):
+    merges = set()
+    for child in rs:
+        if child.tag == 'MergeHistory':
+            print 'Merge found'
+            merges.add('rs' + child.attrib['rsId'])
+    return merges
+
+mutations = set()
+merges = set()
+for id in c282y_records:
+    print id
+    handle = Entrez.efetch(db="snp", id=id, rettype='flt', retmode='xml')
+    # This handle.read function returns a kind of pseudo-json which can't be easily parsed.
+    res = handle.read()
+    handle.close();
+    # Strip namespace for easier reading.
+    res = re.sub(' xmlns="[^"]+"', '', res, count=1)
+    exchangeSet = ET.fromstring(res)
+    # Find all the HGVS entries that mention the c.845G>A mutation
+    has_mutation = False
+    for rs in exchangeSet:
+        for child in rs:
+            if child.tag == "hgvs":
+                if 'c.845G>A' in child.text:
+                    mutations.add('rs'+id)
+                    mergedRecordIds = findMergedRecordIds(rs)
+                    if len(mergedRecordIds) > 0:
+                        print 'Adding', mergedRecordIds, 'to merges'
+                        merges = merges.union(mergedRecordIds)
+
+mutations = mutations.difference(merges)
+print 'Merges:', merges
+print 'Mutations:', mutations
+
+
+
+# This manages to get an XML string but BioPython cannot handle the fact that it uses namespaces
+# So we have to consider parsing it using another library.
+
+
+
+# Back to two problems: The hgvs data in the returned xml does not include the links that the UI search provides
+    # I can't search by HGVS names even in the UI
+
+    # nodes = result.getElementsByTagName('hgvs')
+    # if nodes == None or len(nodes) == 0:
+    #     print ('No HGVS records returned')
+    # for node in nodes:
+    #     if 'NP_' in node.firstChild.nodeValue:
+    #         flag = 1
+    #         val = node.firstChild.nodeValue
+    #         regex1 = r'[A-Z][a-z]+'
+    #         regex2 = r'[0-9]+'
+    #         aa = re.findall(regex1, val)
+    #         pos = re.findall(regex2, val)
+    #         print aa[0] + " > " + aa[1] + " Position: " + pos[2]
+    #         if flag == 0:
+    #             print "SNP not in coding region"
 
 def pull_line(var_set,line):
     """
@@ -192,5 +249,5 @@ def get_snp(q):
     return r
 
 
-snp = get_snp(["1800562"])
+#snp = get_snp(["1800562"])
 # print pp(snp)
